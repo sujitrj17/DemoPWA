@@ -1,0 +1,98 @@
+{
+  "configVersion": 1,
+  "timestamp": 1591712754395,
+  "index": "https://sujitrj17.github.io/DemoPWA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://sujitrj17.github.io/DemoPWA/es2015-polyfills.bda95d5896422d031328.js",
+        "https://sujitrj17.github.io/DemoPWA/favicon.ico",
+        "https://sujitrj17.github.io/DemoPWA/index.html",
+        "https://sujitrj17.github.io/DemoPWA/main.bf45c709a56d3db831b2.js",
+        "https://sujitrj17.github.io/DemoPWA/polyfills.8bbb231b43165d65d357.js",
+        "https://sujitrj17.github.io/DemoPWA/runtime.26209474bfa8dc87a77c.js",
+        "https://sujitrj17.github.io/DemoPWA/styles.0713ca5423bb7bd679d9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://sujitrj17.github.io/DemoPWA/assets/Udemy.lnk",
+        "https://sujitrj17.github.io/DemoPWA/assets/agarbatti.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/ambawadi.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/chappal.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/chhatri.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/download.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/favicon.ico",
+        "https://sujitrj17.github.io/DemoPWA/assets/handwash.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-128x128.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-144x144.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-152x152.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-192x192.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-384x384.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-512x512.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-72x72.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-96x96.png",
+        "https://sujitrj17.github.io/DemoPWA/assets/mobile.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/pant.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/saban.jpg",
+        "https://sujitrj17.github.io/DemoPWA/assets/zadu.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://sujitrj17.github.io/DemoPWA/assets/Udemy.lnk": "056861d7562f1c130dfb8471a620d133b994345e",
+    "https://sujitrj17.github.io/DemoPWA/assets/agarbatti.jpg": "592c35a9356c4af785dabac47fbc24903767a85a",
+    "https://sujitrj17.github.io/DemoPWA/assets/ambawadi.jpg": "08b1479d31b06041e3871e012339c21c58e8fa61",
+    "https://sujitrj17.github.io/DemoPWA/assets/chappal.jpg": "eff271d4e4759517301c6f836849f8db6d6dec2c",
+    "https://sujitrj17.github.io/DemoPWA/assets/chhatri.jpg": "617450f08fc13dadcc496e22e1ceab274210ea07",
+    "https://sujitrj17.github.io/DemoPWA/assets/download.jpg": "5e6e2a110bc23fb7cee91d486e6f8b1c049d7359",
+    "https://sujitrj17.github.io/DemoPWA/assets/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://sujitrj17.github.io/DemoPWA/assets/handwash.jpg": "d64ff74424957b2ac608fe9bb5872e3595e92053",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://sujitrj17.github.io/DemoPWA/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://sujitrj17.github.io/DemoPWA/assets/mobile.jpg": "116c89de8566cf58d34de481e2d7c57193fd72b3",
+    "https://sujitrj17.github.io/DemoPWA/assets/pant.jpg": "87e22f6534e78dd7d667db832925be3f62362b06",
+    "https://sujitrj17.github.io/DemoPWA/assets/saban.jpg": "9e7610423b4d655f28bfd91ed19403d44a65538d",
+    "https://sujitrj17.github.io/DemoPWA/assets/zadu.jpg": "f679a1c146cf7cb2810fff2310f08bd03125e750",
+    "https://sujitrj17.github.io/DemoPWA/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
+    "https://sujitrj17.github.io/DemoPWA/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://sujitrj17.github.io/DemoPWA/index.html": "9cc1ff5b842f1b38c8c2766efb7bba0c2fff8199",
+    "https://sujitrj17.github.io/DemoPWA/main.bf45c709a56d3db831b2.js": "dbf6d24d63135ed2f21fcfc08002019f1bbfb9b8",
+    "https://sujitrj17.github.io/DemoPWA/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://sujitrj17.github.io/DemoPWA/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://sujitrj17.github.io/DemoPWA/styles.0713ca5423bb7bd679d9.css": "4d8865b4626d4f3a47711ce6b6c8e72e9666777d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
