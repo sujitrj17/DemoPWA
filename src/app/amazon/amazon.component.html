@@ -1,0 +1,70 @@
+<div *ngIf = homePage>
+<!-- homepage div -->
+
+
+<div style="text-align: center">
+<h1>Welcome to {{title}}</h1>
+</div>
+<nav>
+<button class="btn btn-success" (click)=startShopping(1)>Shop </button>
+<button class="btn btn-success" style="float: right" (click)=startShopping(2)>Cart-{{cartCount}}</button>
+<button *ngIf="cartStatus" (click)="clearCart()"class="btn btn-outline-danger" style="float: right">Clear Cart</button>
+</nav>
+
+<div *ngIf="shopStatus">
+<table class="table table-hover">
+  <tr>
+    <th>ID</th>
+    <th>Image</th>
+    <th>Product</th>
+    <th>Price</th>
+    <th>choice</th>
+  </tr>
+  <tbody>
+    <tr *ngFor="let item of ProductList">
+      <td>{{item.id}}</td>
+      <td style="width:30%;"><img width="304" height="236" [src]="item.image"/></td>
+      <td>{{item.name}}</td>
+      <td>{{item.price}}</td>
+      <td><button (click)="addTocart(item)" class="btn btn-light">Add to cart</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div *ngIf="cartStatus">
+  <table class="table table-success">
+    <tr>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Choose</th>
+    </tr>
+    <tbody>
+      <tr *ngFor="let item of CartList">
+          <td>{{item.id}}</td>
+          <td style="width:30%;"><img width="304" height="236" [src]="item.image"/></td>
+          <td>{{item.name}}</td>
+          <td>{{item.price}}</td>
+          <td><button (click)="removeItem(item)" class="btn btn-light">Remove</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <h1 style="background-color: lightblue">Cart Value is {{total}}</h1>
+  <button (click)="checkOut()">CheckOut</button>
+</div>
+<button (click)="resetEverything()"class="btn btn-outline-success" style="margin-top: 400px">Go Back</button>
+<button (click)="OpenChild()">OpenChild</button>
+<br>
+</div>
+<div *ngIf = isChildShow>
+  <app-child (childEvent)="methodCalledByChild($event)" [fromParentData] = "sub">
+  </app-child>
+  Inside Parent -{{message}}    
+</div>
+<!-- <div *ngIf="getFeedback">
+<mat-icon>mood</mat-icon>
+
+</div> -->
